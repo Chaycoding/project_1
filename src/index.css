@@ -1,0 +1,290 @@
+html{
+    margin: 0;
+    border: 0;
+}
+body{
+    background-image:linear-gradient( to right, #380036, #0cBABA);
+    overflow-x: hidden;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+}
+#quote-img{
+    background-image: url(./components/images/image-28.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+#iconimg{
+    border-radius: 33%;
+    height: 43px;
+    width: 43px;
+}
+
+#suggestions-main{
+    height: 150px;
+}
+#suggestion-text{
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin-top: 70px;    
+}
+.img-sugg:hover{   
+    background-color: black;
+    opacity: 0.9;
+    transform: scale(1.06)
+}
+.img-suggestion1{
+    background-image: url(./components/images/simg1.jpg);
+    background-size: cover;
+    color: white;
+    transition: all;
+    transition-duration: 0.1s;
+}
+.img-suggestion2{
+    background-image: url(./components/images/simg2.jpg);
+    background-size: cover;
+    transition: all;
+    transition-duration: 0.1s;
+}
+.img-suggestion3{
+    background-image: url(./components/images/simg3.jpg);
+    background-size: cover;
+    color: white;
+    transition: all;
+    transition-duration: 0.1s;
+}
+
+.nav-item:hover{
+    background-color: #0d6efd;
+    border-radius: 10px;
+}
+
+#nav-contactButton{
+    font-family: Roboto;
+    background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+#nav-contactButton:hover{
+    color: black;
+
+}
+
+#quote-box{
+    height: 400px;
+}
+
+.whoimpression{
+    height: 40rem;
+    color: white;
+    font-size: 5rem;
+    width: 100%;
+    background-image: url(./components/images/high\ quality/heroimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#allcontent{
+    flex-grow: 1;
+}
+
+
+#bestOf{
+    color: white;
+    border: none;
+}
+#bestOF:hover{
+    border: 2px white;
+    background-color: black;
+}
+
+#heroText{
+    font-family: 'Ranchers', cursive;
+}
+
+#heroText-2{
+    animation: heroani 4s ease ;
+}
+#heroText-1{
+    animation: heroani 3s ease ;
+    padding-top: 10%;
+}
+
+#heroText-3{
+    animation: heroani 5s ease ;
+    font-size: 3rem;
+}
+
+@keyframes heroani {
+    from{color: black;}
+    to{color: white;}
+}
+
+.nav-items{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.subjectButton{
+    width: 100%;
+    border-radius: 20px;
+    height: 100px;
+    background-color: #06434b;
+    color: white;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    font-weight: 250;
+}
+
+.subjectButton:hover{
+    color: white;
+    text-align: left;
+    
+    background-size: cover;
+}
+
+.subjectButton-art{
+    background-image: url(./components/images/imgArt.jpg);
+}
+
+.subjectButton-econ{
+    background-image: url(./components/images/imgEcon.jpg);
+    color: black;
+    
+}
+.subjectButton-history{
+    background-image: url(./components/images/imgHistory.jpg);
+    
+}
+.subjectButton-health{
+    background-image: url(./components/images/imgHealth.jpg);
+    
+}
+.subjectButton-sports{
+    background-image: url(./components/images/imgSports.jpg);
+    
+}
+.subjectButton-gaming{
+    background-image: url(./components/images/imgGaming.jpg);
+    color: #000000;
+}
+
+.subjectButton-tech{
+    background-image: url(./components/images/imgTech.jpg);   
+}
+.subjectButton-science{
+    background-image: url(./components/images/imgScience.jpg);
+    
+}
+.subjectButton-lit{
+    background-image: url(./components/images/imgLit.jpg);
+
+}
+
+.social{
+    border:solid black 2px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 1.5rem;
+    transition:all 0.3s;
+    border-radius: 10px;
+}
+
+.social-f{
+    color: rgb(75, 8, 95);
+}
+
+.social-i{
+    color: rgb(75, 8, 95);
+}
+
+.social-t{
+    color: rgb(75, 8, 95);
+}
+
+.article-image{
+    margin:-61px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-box{
+    height: 100%;
+    width: 20px;
+    visibility: hidden;
+    background-color: white;
+    animation-name: nav-ani;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+@keyframes nav-ani1{
+    0%{translate: 0; visibility: visible;}
+    100%{translate: 700px;}
+}
+
+.nav-ani1{
+    transform: translate(-50%) skew(-14deg);
+    animation-name: nav-ani1;
+}
+
+@keyframes nav-ani2{
+    0%{translate: 0; visibility: visible;}
+    100%{translate: -700px;}
+}
+.nav-ani2{
+    transform: translate(-50%) skew(14deg);
+    animation-name: nav-ani2;
+
+}
+
+@keyframes nav-name {
+    0%{color: black;}
+    100%{color: white;}
+}
+#nav-name{
+    animation-name: nav-name;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+
+@keyframes nav-section {
+    0%{color: black;}
+    100%{color: white;}
+}
+#nav-section{
+    animation: nav-section 2s linear;
+    color: white;
+}
+
+#contenttitle{
+    width:100%;
+    background-image: linear-gradient(to right,#000000, #434343);
+    border-bottom: white solid 1px;
+}
+
+#content-title-buttons{
+    color: white;
+}
+#content-title-buttons:hover{
+    background-color: white;
+    color: black;
+}
+
+#content-first-img{
+    background-size: cover;
+    height: 25rem;
+}
+
+#smallercontent{
+    background-size: cover;
+    
+}
